@@ -1,0 +1,29 @@
+/** @format */
+
+* {
+  background-color: rgb(9, 11, 19);
+  margin: 0;
+  padding: 0;
+}
+
+#canvas {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#box {
+  position: absolute;
+  /* left: 100px; */
+  height: 5vh;
+  width: 5vh;
+  background-color: green;
+  /* transition: all ease-in 5s; */
+}
+
+.fallen-box {
+  /* transition: all ease-in 5s; */
+
+  position: absolute;
+  bottom: 0%;
+}
